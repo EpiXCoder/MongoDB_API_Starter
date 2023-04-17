@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router();
 
 const Message = require('../models/message')
-const User = require('../models/user')
+const User = require('../models/patient')
 
 /** Route to get all messages. */
 router.get('/', (req, res) => {

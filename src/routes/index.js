@@ -1,10 +1,10 @@
 const express = require('express')
 const messageRoutes = require('./message.js')
-const userRoutes = require('./user.js')
+const patientRoutes = require('./patient.js')
 
 const router = express.Router()
 
 router.use('/messages', messageRoutes)
-router.use('/users', userRoutes)
+router.use('/patients', patientRoutes)
 
 module.exports = router
